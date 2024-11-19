@@ -1,0 +1,41 @@
+
+/* Remove margin at top of page */
+html {
+    margin: 0px;
+}
+
+/* Make everything be in front of background */
+* {
+    z-index: 1;
+}
+
+body {
+    /* Green border */
+    margin: 25px;
+}
+
+.background {
+    background:rgb(21, 255, 130);
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+}
+
+/* Remove scrollbar. Maybe bad idea? */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.title {
+    color: white;
+}
