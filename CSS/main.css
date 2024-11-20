@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Steelfish";
+    src: url("../Fonts/steelfish eb.otf");
+}
 
 /* Remove margin at top of page */
 html {
@@ -5,23 +9,12 @@ html {
 }
 
 /* Make everything be in front of background */
-* {
-    z-index: 1;
-}
+
 
 body {
     /* Green border */
     margin: 25px;
-}
-
-.background {
-    background:rgb(21, 255, 130);
-    z-index: 0;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vw;
+    background:rgb(90, 238, 164);
 }
 
 /* Remove scrollbar. Maybe bad idea? */
@@ -34,8 +27,27 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100%;
     overflow: auto;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .title {
+    color: white;
+    font-family: "Steelfish";
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+}
+
+.navbar a {
+    background-color: black;
+    height: 100%;
+    margin: auto;
+    border-radius: 2px 2px 0px 0px;
     color: white;
 }
