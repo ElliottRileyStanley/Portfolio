@@ -14,7 +14,7 @@ html {
 body {
     /* Green border */
     margin: 25px;
-    background:rgb(90, 238, 164);
+    background: rgb(27, 255, 187);
 }
 
 /* Remove scrollbar. Maybe bad idea? */
@@ -23,12 +23,15 @@ body::-webkit-scrollbar {
 }
 
 .content {
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
     background-color: black;
-    width: 100%;
     min-height: calc(100vh - 76px);
     height: 100%;
     overflow: auto;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 15px 15px 15px;
 }
 
 .navbar {
@@ -44,7 +47,7 @@ body::-webkit-scrollbar {
     padding-left: 6px;
     padding-right: 6px;
     background-color: rgb(63, 63, 63);
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     font-size: 16px;
     text-decoration: none;
     color: white;
