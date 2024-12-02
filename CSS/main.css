@@ -14,7 +14,7 @@ html {
 body {
     /* Green border */
     margin: 25px;
-    background: rgb(27, 255, 187);
+    background: rgb(0, 218, 141);
 }
 
 /* Remove scrollbar. Maybe bad idea? */
@@ -28,8 +28,7 @@ body::-webkit-scrollbar {
     padding-right: 25px;
     padding-bottom: 25px;
     background-color: black;
-    min-height: calc(100vh - 76px);
-    height: 100%;
+    min-height: calc(100vh - 113px);
     overflow: auto;
     border-radius: 0px 15px 15px 15px;
 }

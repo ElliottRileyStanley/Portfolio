@@ -5,11 +5,14 @@
     font-size: 50px;
 }
 
-.textbox {
-    margin-top: 12px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 2px solid rgb(221, 221, 221);
-    border-radius: 8px;
-    background: linear-gradient(to bottom right, rgb(48, 62, 255), rgb(161, 61, 255));
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+textarea {
+    resize: none;
+    height: calc(1em+2px);
+    padding: 0;
+
 }
