@@ -58,3 +58,10 @@ body::-webkit-scrollbar {
     background-color: rgb(0, 0, 0);
     cursor: default;
 }
+
+.title {
+    margin: 0px;
+    color: white;
+    font-family: "Steelfish";
+    font-size: 50px;
+}
