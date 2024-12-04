@@ -14,7 +14,7 @@ async function load() {
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
-        console.log(doc.documentElement.innerHTML);
+        alert(doc.documentElement.innerHTML);
         console.log("")
     }
 }
