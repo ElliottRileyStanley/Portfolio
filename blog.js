@@ -10,11 +10,11 @@ async function load() {
     ];
     for (const post of posts) {
         console.log(post)
-        const response = await fetch(post);
+        const response = await fetch(post, {method: 'GET'});
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
-        alert(doc.getElementById("test").innerHTML);
+        console.log(doc.documentElement.innerHTML);
         console.log("")
     }
 }
