@@ -8,6 +8,11 @@
     border-radius: 15px;
     margin-right: 10px;
     margin-bottom: 10px;
+    text-decoration: none
+}
+
+.postLink {
+    text-decoration: none;
 }
 
 .postTitle {
