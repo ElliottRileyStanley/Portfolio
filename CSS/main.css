@@ -58,6 +58,8 @@ body::-webkit-scrollbar {
         width: 100%;
         margin: 0px;
         border-radius: 0px;
+        background-image: none;
+        background-color: rgb(53, 53, 53);
     }
 
     .content {
