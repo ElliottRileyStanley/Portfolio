@@ -42,16 +42,27 @@ body::-webkit-scrollbar {
 .navbar a {
     display: inline-block;
     margin-right: 3px;
-    padding: 4px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: rgb(63, 63, 63);
     border-radius: 10px 10px 0px 0px;
     font-size: 16px;
     text-decoration: none;
     color: white;
-    min-width: 90px;
+    min-width: 85px;
     text-align: center;
+}
+
+@media (max-width: 420px) {
+    .navbar a {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .content {
+        border-radius: 0px 0px 15px 15px;
+    }
 }
 
 .navbar a.active {

@@ -1,8 +1,12 @@
-load();
-resize();
+window.onload = async function() {
+    await load();
+    resize();
+}
+
+window.onresize = resize;
 
 async function load() {
-    const posts = [
+    var posts = [
         `/Blog/Filler.html`,
         `/Blog/Test1.html`,
         `/Blog/Test2.html`
@@ -24,13 +28,14 @@ async function load() {
     }
 }
 
-function resize() {
+async function resize() {
     var width = document.getElementById("posts").clientWidth;
-    var cols =  Math.max(Math.floor(width/250), 1);
-    var posts = document.getElementsByClassName("post")
-    for (const post in posts) {
+    console.log(width)
+    var cols =  Math.max(Math.floor(width/260), 1);
+    var posts = document.querySelectorAll(".post")
+    for (const post of posts) {
         console.log(post)
-        console.log(Math.floor(width/cols) + "px")
-        post.style.width = Math.floor(width/cols) + "px";
+        console.log()
+        post.style.width = Math.floor(width/cols) - 13 + "px"
     }
 }
