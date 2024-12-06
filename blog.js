@@ -16,14 +16,15 @@ async function load() {
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
-        var post_div = document.createElement('div');
-        post_div.classList.add("post");
+        var post_div = document.createElement('a');
+        post_div.href = post;
+        post_div.classList.add("postLink");
         post_div.innerHTML = `
-        <a href="${post}" class="postLink">
+        <div class="post">
         <h1 class="postTitle">${doc.getElementsByName("title")[0].content}<img class="postLanguage" src="${doc.getElementsByName("language")[0].content}"></h1>
         <p class="postDescription">${doc.getElementsByName("description")[0].content}</p>
         <p class="postDate">${doc.getElementsByName("date")[0].content}</p>
-        </a>
+        </div>
         `;
         document.getElementById("posts").appendChild(post_div);
     }

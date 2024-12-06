@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
     margin-right: 3px;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-image: linear-gradient(to top, black 0%, rgb(53, 53, 53) 20%);
+    background-image: linear-gradient(to top, black 0%, rgb(53, 53, 53) 8%);
     border-radius: 10px 10px 0px 0px;
     font-size: 16px;
     text-decoration: none;
@@ -66,6 +66,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar a.active {
+    background-image: none;
     background-color: black;
     cursor: default;
 }
