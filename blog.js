@@ -7,9 +7,9 @@ window.onresize = resize;
 
 async function load() {
     var posts = [
-        `/Blog/Filler.html`,
-        `/Blog/ImageConverter.html`,
-        `/Blog/Anagram.html`
+        `/Blog/Filler/Filler.html`,
+        `/Blog/TIImageDisplay/ImageConverter.html`,
+        `/Blog/Anagram/Anagram.html`
     ];
     for (const post of posts) {
         const response = await fetch(post, {method: 'GET'});

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Steelfish";
+    src: url("../Fonts/steelfish eb.otf");
+}
+
+h1 {
+    color: white;
+    font-family: "Steelfish";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-indent: 3em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
