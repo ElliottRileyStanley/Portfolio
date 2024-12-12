@@ -3,6 +3,11 @@
     src: url("../Fonts/steelfish eb.otf");
 }
 
+@font-face {
+    font-family: "Metropolis";
+    src: url("../Fonts/Metropolis-Light.otf");
+}
+
 /* Remove margin at top of page */
 html {
     margin: 0px;
@@ -14,13 +19,14 @@ html {
 body {
     /* Green border */
     margin: 25px;
-    background: rgb(0, 218, 141);
+    background: rgb(5, 202, 133);
 }
 
 /* Remove scrollbar. Maybe bad idea? */
 body::-webkit-scrollbar {
     display: none;
 }
+
 
 .content {
     padding-top: 12px;
@@ -44,7 +50,7 @@ body::-webkit-scrollbar {
     margin-right: 3px;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-image: linear-gradient(to top, black 0%, rgb(53, 53, 53) 8%);
+    background-image: linear-gradient(to top, black 0%, rgb(36, 36, 36) 8%);
     border-radius: 10px 10px 0px 0px;
     font-size: 16px;
     text-decoration: none;
