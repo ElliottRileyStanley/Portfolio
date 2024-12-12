@@ -8,6 +8,11 @@
     src: url("../Fonts/Metropolis-Light.otf");
 }
 
+@font-face {
+    font-family: "Nimbus";
+    src: url("../Fonts/NimbusRomNo9L-Reg.otf");
+}
+
 /* Remove margin at top of page */
 html {
     margin: 0px;
