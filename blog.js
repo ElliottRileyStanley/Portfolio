@@ -7,8 +7,8 @@ window.onresize = resize;
 
 async function load() {
     var posts = [
+        `/Blog/Automata/Automata.html`,
         `/Blog/Filler/Filler.html`,
-        `/Blog/TIImageDisplay/ImageConverter.html`,
         `/Blog/Anagram/Anagram.html`
     ];
     for (const post of posts) {

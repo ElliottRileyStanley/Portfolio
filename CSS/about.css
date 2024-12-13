@@ -1,15 +1,33 @@
+.section {
+    display: flex;
+    align-items: stretch;
+}
+
 .text {
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
     color: white;
-    font-size: 16px;
+    font-size: 25px;
     font-family: "Nimbus";
 }
 
 .image {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 40%;
     float: right;
 }
 
+@media (max-width: 750px) {
+    .image {
+        display: none;
+    }
+}
