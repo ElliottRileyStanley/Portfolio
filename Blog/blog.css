@@ -30,3 +30,8 @@ video {
     margin-right: auto;
     max-width: 90%;
 }
+
+.source {
+    color: white;
+    text-align: center;
+}
