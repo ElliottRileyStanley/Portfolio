@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: black;
+    font-size: 16px;
+}
+
+#main {
+    margin: 5%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;   
+}
+
+h2 {
+    font-size: 0.8em;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0.4em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 30em
+}
